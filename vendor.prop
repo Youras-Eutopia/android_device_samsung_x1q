@@ -8,3 +8,6 @@ ro.vendor.fingerprint.request_touch_event=true
 
 # Radio
 ro.vendor.radio.default_network=33,33
+
+# WiFi
+wifi.direct.interface=p2p-dev-wlan0
