@@ -1,0 +1,1 @@
+require board=kona|x1q
