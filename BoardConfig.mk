@@ -15,6 +15,9 @@ SOONG_CONFIG_samsungCameraVars_extra_ids := 52 # telephoto
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest_nfc.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/samsung/x1q.config
 
