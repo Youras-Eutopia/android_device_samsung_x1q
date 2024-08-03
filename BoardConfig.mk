@@ -13,7 +13,7 @@ SOONG_CONFIG_samsungCameraVars += extra_ids
 SOONG_CONFIG_samsungCameraVars_extra_ids := 52 # telephoto
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest_nfc.xml
