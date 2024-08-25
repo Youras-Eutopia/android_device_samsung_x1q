@@ -320,10 +320,10 @@ vendor/lib64/libloc_api_v02.so
 vendor/lib64/liblocationservice.so
 
 # HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleEx2HEXAGON/HotwordEnrollmentOKGoogleEx2HEXAGON.apk
--product/priv-app/HotwordEnrollmentXGoogleEx2HEXAGON/HotwordEnrollmentXGoogleEx2HEXAGON.apk
+product/priv-app/HotwordEnrollmentOKGoogleEx2HEXAGON/HotwordEnrollmentOKGoogleEx2HEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleEx2HEXAGON/HotwordEnrollmentXGoogleEx2HEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
--system_ext/framework/com.android.hotwordenrollment.common.util.jar
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IPA firmware
 vendor/firmware/ipa_fws.b00
@@ -352,11 +352,11 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 
 # NFC
--vendor/bin/hw/android.hardware.secure_element@1.1-service
+vendor/bin/hw/android.hardware.secure_element@1.1-service
 vendor/bin/hw/nxp.android.hardware.nfc@1.2-service
 vendor/etc/init/android.hardware.secure_element@1.1-service.rc
 vendor/etc/init/nxp.android.hardware.nfc@1.2-service.rc
--vendor/lib64/ese_spi_nxp.so
+vendor/lib64/ese_spi_nxp.so
 vendor/lib64/nfc_nci_nxpsn.so
 vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
