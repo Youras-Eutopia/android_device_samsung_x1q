@@ -5,3 +5,6 @@ bluetooth.device.default_name=Galaxy S20 5G
 ro.vendor.fingerprint.type=udfps_optical
 ro.vendor.fingerprint.sensor_location=540|2137|100
 ro.vendor.fingerprint.request_touch_event=true
+
+# Radio
+ro.vendor.radio.default_network=33,33
