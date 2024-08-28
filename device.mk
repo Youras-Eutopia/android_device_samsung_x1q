@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 2400
 
+# Camera
+$(call soong_config_set,samsungCameraVars,extra_ids,52)
+
 # NFC configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \

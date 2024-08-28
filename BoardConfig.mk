@@ -8,10 +8,6 @@ include device/samsung/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/x1q
 
-# Camera
-SOONG_CONFIG_samsungCameraVars += extra_ids
-SOONG_CONFIG_samsungCameraVars_extra_ids := 52 # telephoto
-
 # Display
 TARGET_SCREEN_DENSITY := 420
 
