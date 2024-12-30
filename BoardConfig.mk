@@ -24,7 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := x1q
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # UDFPS
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.x1q
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/samsung/fingerprint:libudfps_extension.samsung
 TARGET_USES_FOD_ZPOS := true
 
 # Wi-Fi
