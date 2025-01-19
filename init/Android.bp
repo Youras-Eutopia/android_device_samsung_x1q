@@ -1,0 +1,18 @@
+//
+// SPDX-FileCopyrightText: 2025 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.x1q.rc",
+    src: "init.x1q.rc",
+    sub_dir: "init/hw",
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "wifi_brcm.rc",
+    src: "wifi_brcm.rc",
+    sub_dir: "init",
+    soc_specific: true,
+}

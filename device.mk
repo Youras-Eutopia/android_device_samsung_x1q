@@ -22,6 +22,11 @@ TARGET_SCREEN_WIDTH := 2400
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,52)
 
+# Init
+PRODUCT_PACKAGES += \
+    init.x1q.rc \
+    wifi_brcm.rc
+
 # NFC configs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
@@ -32,11 +37,6 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
-
-# Rootdir
-PRODUCT_PACKAGES += \
-    init.x1q.rc \
-    wifi_brcm.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
