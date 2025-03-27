@@ -11,9 +11,6 @@ DEVICE_PATH := device/samsung/x1q
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest_nfc.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/samsung/x1q.config
 
