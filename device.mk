@@ -25,10 +25,6 @@ TARGET_SCREEN_WIDTH := 2400
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/android.hardware.nfc@1.2-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.samsung.rc
 
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.1.vendor \
-    libchrome.vendor
-
 # NFC configs
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/nfc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
